@@ -1,0 +1,18 @@
+Index: src/test/resources/uiFeatures/oHrmEmployees.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Feature: As an administrator I should be able to view all employees and search.\r\n  Background:\r\n    Given I'm on logged in to OrangeHRM as admin\r\n\r\n  @hrm\r\n  Scenario: View All Employees\r\n    And I click on the Employee List\r\n    Then I see employee list table\r\n\r\n    #Scenario: Verifying employee count\r\n  ##
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/uiFeatures/oHrmEmployees.feature b/src/test/resources/uiFeatures/oHrmEmployees.feature
+--- a/src/test/resources/uiFeatures/oHrmEmployees.feature	
++++ b/src/test/resources/uiFeatures/oHrmEmployees.feature	
+@@ -8,4 +8,4 @@
+     Then I see employee list table
+ 
+     #Scenario: Verifying employee count
+-  ##
+\ No newline at end of file
++    #Adding sentence here
+\ No newline at end of file
